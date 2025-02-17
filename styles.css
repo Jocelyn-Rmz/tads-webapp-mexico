@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px;
+}
+
+.container {
+    border: 2px solid black;
+    padding: 20px;
+}
+
+.controls {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 20px;
+}
+
+.color-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.color-box {
+    width: 150px;
+    height: 150px;
+    margin-top: 10px;
+}
+
+#greenBox {
+    background-color: #009900;
+}
+
+#whiteBox {
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#redBox {
+    background-color: #9D0000;
+}
+
+.symbol {
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 10px;
+}
